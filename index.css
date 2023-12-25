@@ -1,0 +1,55 @@
+body{
+    overflow: hidden;
+    background-image:url(./background.jpg);
+}
+
+.main{
+    width: 30vw;
+    height: 100vh;
+    margin-top: 10vh;
+    margin-left: 40vw;
+    font-family: cursive;
+}
+ 
+h1{
+    text-transform: capitalize;
+    text-align: center;
+    color: rgb(182, 157, 131);
+    padding-top: 20%;
+    white-space: nowrap;
+}
+input{
+    background: rgb(140, 118, 89);
+    margin-left: 20%;
+}
+
+h3{
+    color: rgb(182, 157, 131);
+    margin-left: 20%;
+}
+button{
+    margin: 20px;
+    margin-left: 20%;
+    color: rgb(20, 19, 17);
+    background: rgb(140, 118, 89);
+}
+
+@media only screen and (min-width: 320px) {
+    .main{
+        width: 0;
+        margin-left: 10vw;
+        margin-top: 15vh;
+    }
+    h1{
+        font-size: 30px;
+        
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .main{
+        margin-left: 35vw ;
+    }
+
+}
+
