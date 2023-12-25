@@ -53,3 +53,17 @@ button{
 
 }
 
+@media only screen and (min-width: 2560px) {
+    .main{
+        width: 40vw;
+    }
+    h1{
+        font-size: 45px;
+        margin-bottom: 6vh;
+    }
+    input,button,h3{
+        font-size: 30px;
+    }
+}
+
+
